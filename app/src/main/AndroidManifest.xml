@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.teckzy.msrsilverhouse">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/msr"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_configuration"
+        android:roundIcon="@drawable/msr"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FatehFruitsCo"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup"
+        tools:targetApi="n">
+
+        <activity
+            android:name="com.teckzy.msrsilverhouse.Activity.SplashscreenActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            tools:ignore="IntentFilterExportedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.AddNewAddressActivity" />
+        <activity
+            android:name="com.teckzy.msrsilverhouse.Activity.BottomSheetDialog"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.CartActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.ChangeNewPasswordActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.ChangeForgotPasswordActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.CheckOutActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.ForgotPasswordActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.HomeActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.LoginActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.MyAddressActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.MyOrdersActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.OrderDetailsActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.OTPVerification" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.PaymentActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.ProductActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.ProductAllActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.ProductDetailsActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.RatingReviewActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.SignupActivity" />
+        <activity android:name="com.teckzy.msrsilverhouse.Activity.WishlistActivity" />
+    </application>
+</manifest>

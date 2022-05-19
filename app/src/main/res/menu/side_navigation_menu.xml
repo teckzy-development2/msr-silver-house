@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigationAbout"
+        android:icon="@drawable/about"
+        android:title="@string/about" />
+
+    <item
+        android:id="@+id/navigationNeedHelp"
+        android:icon="@drawable/needhelp"
+        android:title="@string/needhelp" />
+    <item
+        android:id="@+id/navigationTermsAndConditions"
+        android:icon="@drawable/termsandcondition"
+        android:title="@string/termsconditions" />
+
+    <item
+        android:id="@+id/navigationPrivacypolicy"
+        android:icon="@drawable/privacypolicy"
+        android:title="@string/privacypolicy" />
+
+    <item
+        android:id="@+id/navigationContactUs"
+        android:icon="@drawable/contactus"
+        android:title="@string/contactus" />
+    <item
+        android:id="@+id/navigationShareapp"
+        android:icon="@drawable/shareapp"
+        android:title="@string/shareapp" />
+</menu>

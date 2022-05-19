@@ -1,0 +1,269 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MSR Silver House</string>
+    <string name="login">LOGIN</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="checkboxshow">Not a Member yet? Sign Up here.</string>
+    <string name="forgotpassword">Forgot Password</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="sendotp">Send OTP</string>
+    <string name="alreadyhaveanaccount">Already have an account?</string>
+    <string name="signup">SignUp</string>
+    <string name="welcome">Welcome</string>
+    <string name="donthaveanaccount">Don\'t have an account ?</string>
+    <string name="cart">Cart</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="menu">Menu</string>
+    <string name="freshproducts">Fresh Products</string>
+    <string name="viewall">View All</string>
+    <string name="verification">Verification</string>
+    <string name="codeissentto">Code is sent to</string>
+    <string name="didntreceivecode">Didn\'t receive code ?</string>
+    <string name="requestagain">Request again</string>
+    <string name="verifyandcreateaccount">Verify and Create Account</string>
+    <string name="addtocart">Add To Cart</string>
+    <string name="yourcartisempty">Your cart is empty</string>
+    <string name="total">Total :</string>
+    <string name="proceedtocheckout">Proceed to checkout</string>
+    <string name="address">Address</string>
+    <string name="price">Price</string>
+    <string name="cartvalue">Cart Value</string>
+    <string name="discount">Discount</string>
+    <string name="applycoupon">Apply Coupon</string>
+    <string name="taxes">Taxes</string>
+    <string name="deliverycharges">Delivery Charges</string>
+    <string name="totalamount">Total Amount</string>
+    <string name="pay">Pay</string>
+    <string name="name">Name</string>
+    <string name="pincode">Pincode</string>
+    <string name="state">State</string>
+    <string name="addressdoorno">Address(House No, Building)</string>
+    <string name="addressstreet">Address(Street, Area)</string>
+    <string name="town">Localty/Town</string>
+    <string name="city">City</string>
+    <string name="landmark">Near by Landmark</string>
+    <string name="add_address">Add Address</string>
+    <string name="typesofaddress">Types of address</string>
+    <string name="makethisasmydefaultaddress">Make this as my default address</string>
+    <string name="myaddress">My Address</string>
+    <string name="wishlist">Wish List</string>
+    <string name="myorders">My Orders</string>
+    <string name="changepassword">Change Password</string>
+    <string name="signout">Sign Out</string>
+    <string name="subscription">Subscription</string>
+    <string name="settings">Settings</string>
+    <string name="office">Office</string>
+    <string name="noaddressfound">No address found</string>
+    <string name="addnewaddress">Add New Address</string>
+    <string name="orderdate">Order Date</string>
+    <string name="orderid">Order ID</string>
+    <string name="ordertotal">Order Total</string>
+    <string name="paymentinformation">Payment Information</string>
+    <string name="paymentmethod">Payment Method</string>
+    <string name="purchasedetails">Purchase Details</string>
+    <string name="ordersuccessful">Order Successful</string>
+    <string name="ordersummary">OrderSummary</string>
+    <string name="totalitems">Total Items</string>
+    <string name="oldpassword">Old Password</string>
+    <string name="newpassword">New Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="review">Review</string>
+    <string name="checkout">Checkout</string>
+    <string name="clickheretoseedetail">Click here to see detail</string>
+    <string name="getfreshfruits">Get Fresh Fruits</string>
+    <string name="everyweekatyourdoorstep">Every week at your doorstep</string>
+    <string name="premium">Premium</string>
+    <string name="subscribenow">Subscribe now</string>
+    <string name="quantity">Quantity</string>
+    <string name="weight">Weight</string>
+    <string name="about">About</string>
+    <string name="termsconditions">Terms &amp; Conditions</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="basket">Basket</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="changeaddress">Change Address</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="btncontinue">Continue</string>
+    <string name="needhelp">Need Help?</string>
+    <string name="contactus">Contact Us</string>
+    <string name="shareapp">Share App</string>
+    <string name="skip">Skip</string>
+    <string name="addresslandmark">Landmark -</string>
+    <string name="contact">Contact -</string>
+    <string name="district">District</string>
+    <string name="country">Country</string>
+    <string name="shippingto">Shipping to</string>
+    <string name="nofavouritesfound">No Favourites Found</string>
+    <string name="mrp">M.R.P.</string>
+    <string name="quantitys">Quantity : </string>
+    <string name="nomyordersfound">No My Orders Found</string>
+    <string name="orderedon">Ordered on</string>
+    <string name="deliveredon">Delivered on :</string>
+    <string name="orderstatus">Order Status :</string>
+    <string name="deliveryaddress">Delivery Address</string>
+    <string name="pricedetails">Price Details</string>
+    <string name="noordersdetailsfound">No orders details found</string>
+    <string name="chooseprice">Choose price</string>
+    <string name="confirm">Confirm</string>
+    <string name="nocheckoutdata">No checkout data</string>
+
+    <string name="terms1">1.1.  These Fateh Terms and Conditions ("Terms and Conditions") outline the rules and regulations for the use of Fateh International Private Limited’s ("Fateh") Website ("Website").</string>
+    <string name="terms2">1.2.  For the purpose of these Terms and Conditions, wherever the context so requires "You" or "User" shall mean any natural or legal person who has agreed to become a buyer by registering on the Website or any person who visits the Website for registering on the Website or otherwise.</string>
+    <string name="terms3">1.3.  Except as otherwise expressly stated with respect to our products, all contents of the site are offered on an "as is" basis without any warranty whatsoever either express or implied. Fateh makes no representations, express or implied, including without limitation implied warranties of merchantability and fitness for a particular purpose.</string>
+    <string name="terms4">1.4.  Fateh does not guarantee the functions contained in the site will be uninterrupted or error-free, that this site or its server will be free of viruses or other harmful components, or defects will be corrected even if Fateh is aware of them.</string>
+    <string name="terms5">1.5.  These Terms and Conditions are published in accordance with the provisions of Rule 3 of the Information Technology (Intermediaries Guidelines) Rules, 2011.</string>
+    <string name="terms6">1.6.  Should you have any clarifications regarding the Terms and Conditions, please do not hesitate to contact us info@fatehfruits.com.</string>
+
+    <string name="reg1">2.1.  You can purchase the products offered on the Website as a User. As part of the registration process on the Website, Fateh may collect certain personally identifiable information about You including first and last name, email address, mobile phone number and contact details, Postal code, Demographic profile (like your age, gender, address etc).</string>
+    <string name="reg2">2.2.  As a User, You are responsible for maintaining the confidentiality of your user id and password. You are also responsible for maintaining the confidentiality of your email id and mobile number and to avoid any unauthorised access to your mobile and / or email id.</string>
+    <string name="reg3">2.3.  Information collected about You is subject to the Privacy Policy of Fateh, available at www.fatehfruits.com which is incorporated in these Terms and Conditions by reference.</string>
+
+    <string name="acceptance1">3.1.  By accessing or using the Website, You are agreeing to the Terms and Conditions detailed herein below and concluding a legally binding contract with Fateh. You may not use the services available on the Website if You do not accept the Terms and Conditions or are unable to be bound by the Terms and Conditions. Your use of the Website is at your own risk. In order to use the Website, You must first agree to the Terms and Conditions. You can accept the Terms and Conditions by:</string>
+    <string name="acceptance2">3.1.1.   Clicking to accept or agree to the Terms and Conditions, where it is made available to You on the Website.</string>
+    <string name="acceptance3">3.1.2.   Actually availing the services on the Website. In this case, You understand and agree that Fateh will treat your use of the Website as acceptance of the Terms and Conditions from that point onwards.</string>
+    <string name="acceptance4">3.2.  Fateh reserves the right, at its sole discretion, to change, modify, add or remove portions of these Terms and Conditions, at any time without any prior written notice to the User. You shall ensure to review these Terms and Conditions periodically for updates / changes. Your continued use of the Website following the posting of changes will mean that You accept and agree to the revisions in the Terms and Conditions.</string>
+    <string name="acceptance5">3.3.  It is strongly recommended that you read and understand these "Terms of Use" carefully, as by accessing this Website, you agree to be bound by the same. If you do not agree with Terms and Conditions, you should not use or access the Website for any purpose whatsoever.</string>
+
+    <string name="eligible1">4.1.  Services of the Website would be available to only select geographical locations in India.</string>
+    <string name="eligible2">4.2.  Transactions through the Website may be subject to a delivery charge where the minimum order size is not met.</string>
+    <string name="eligible3">4.3.  You will be informed of such delivery charges at the stage of check-out for a transaction through the Website.</string>
+    <string name="eligible4">4.4.  Persons who are "incompetent to contract" within the meaning of the Indian Contract Act, 1872 including un-discharged insolvents etc. are not eligible to use the Website.</string>
+    <string name="eligible5">4.5.  Our Website is not directed to children under the age of 18. If we become aware that a child and / or User is under the age of 18 and has registered or using our Website and application, we are entitled to remove his or her account from our system and cancel any order placed by him or her.</string>
+
+    <string name="condition1">5.1.  Fateh has a complete right to accept or reject an order placed on this Website.</string>
+    <string name="condition2">5.2.  No cancellation or replacement is available once an order is placed on the Website.</string>
+    <string name="condition3">5.3.  Payment for any product purchased on this Website can be made online only through Credit Card, Debit Card, Net Banking, Online Wallets. However Fateh reserves its right to add or delete any mode of payment without any prior notice.</string>
+    <string name="condition4">5.4.  Any order placed on this Website would not be eligible for refund and / or return until and unless there is serious damage to the product (eg. rotten, fungus, delivery of a wrong product. The damage needs to be reported within 24 hours of receipt of the product, along with pictures of the product, to be sent to info@fatehfruits.com.</string>
+    <string name="condition5">5.5.  In case of refunds due to serious damage to the products, as described herein above in clause 5.4, once the damage is reported to Fateh, Fateh will, after confirming the authenticity of the claim, refund the amount between 14 working days, depending upon the mode of payment chosen by the User. Sometimes banks or financial intermediaries take a longer time to process the refund request. However, if the refund is not completed within 14 days, the User may contact Fateh for the same at www.fatehfruits.com. Fateh does not make any cash refunds whatsoever.</string>
+    <string name="condition6">5.6.  Once the product is delivered, Fateh shall not be responsible for the product. Any damage to the product thereafter shall be solely the customers’ responsibility.</string>
+    <string name="condition7">5.7.  Prices are fixed, hence non-negotiable.</string>
+    <string name="condition8">5.8.  Fateh shall contract with third parties to enable swift delivery of the product to You.</string>
+    <string name="condition9">5.9.  All materials on the Website, including images, illustrations, audio clips, and video clips, are solely the intellectual property of Fateh. Material on the Website is solely for your personal, non-commercial use. You must not copy, reproduce, republish, upload, post, transmit or distribute such material in any way, including by email or other electronic means, whether directly or indirectly and You must not assist any other person to do so. Use of the materials on this Website for any purpose other than personal, non-commercial use is a violation of the copyrights, trademarks and other proprietary rights of Fateh, and is prohibited.</string>
+    <string name="condition10">5.10.  In the event that a non-delivery occurs on account of a mistake by You (i.e. wrong name or address or any other wrong information) any extra cost incurred for redelivery shall be payable by You</string>
+    <string name="condition11">5.11.  You will provide authentic and true information in all instances where such information is requested of you. Fateh reserves the right to confirm and validate the information and other details provided by You at any point of time. If upon confirmation your details are found not to be true (wholly or partly), Fateh has the right to reject the registration and debar You from using the Website, at its sole discretion.</string>
+    <string name="condition12">5.12.  Fateh grants you a limited, revocable permission to access and make personal use of this Website, but not to download or modify it, its contents or any portion of it, except with express written consent of Fateh. This permission does not include any resale or commercial use of this Website or its contents; any collection and use of any product listings, descriptions, or prices; any derivative use of this Website or its contents; any downloading or copying of account information for the benefit of another seller; or any use of data mining, robots, or similar data gathering and extraction tools.</string>
+    <string name="condition13">5.13.  The User agrees to not use the Website for any of the following purposes:</string>
+    <string name="condition14">5.13.1.   Disseminating any unlawful, harassing, libellous, abusive, threatening, harmful, vulgar, obscene, or otherwise objectionable material;</string>
+    <string name="condition15">5.13.2.   Transmitting material that encourages conduct that constitutes a criminal offence or results in civil liability or otherwise breaches any relevant laws, regulations or code of practice</string>
+    <string name="condition16">5.13.3.   Gaining unauthorized access to other computer systems or interfering with any other person\'s use or enjoyment of the Website;</string>
+    <string name="condition17">5.13.4.   Breaching any applicable laws; interfering or disrupting networks or web sites connected to the Website; and</string>
+    <string name="condition18">5.13.5.   Making, transmitting or storing electronic copies of materials protected by copyright without the permission of the owner.</string>
+    <string name="condition19">5.14.  You hereby agree and undertake not to host, display, upload, modify, publish, transmit, update or share any information:</string>
+    <string name="condition20">5.14.1.   belongs to another person and to which you do not have any right;</string>
+    <string name="condition21">5.14.2.   is grossly harmful, harassing, blasphemous, defamatory, obscene, pornographic, paedophilic, libellous, invasive of another’s privacy, hateful, or racially, ethnically objectionable, disparaging, relating or encouraging money laundering or gambling, or otherwise unlawful in any manner whatever;</string>
+    <string name="condition22">5.14.3.   harms minors in any way;</string>
+    <string name="condition23">5.14.4.   infringes any patent, trademark, copyright or another proprietary/intellectual property rights;</string>
+    <string name="condition24">5.14.5.   violates any law for the time being in force;</string>
+    <string name="condition25">5.14.6.   deceives or misleads the addressee about the origin of such messages communicates any information which is grossly offensive or menacing in nature;</string>
+    <string name="condition26">5.14.7.   impersonates another person;</string>
+    <string name="condition27">5.14.8.   contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer resource;</string>
+    <string name="condition28">5.14.9.   threatens the unity, integrity, defence, security or sovereignty of India, friendly relations with foreign states, or public order or causes incitement to the commission of any cognizable offense or prevents investigation of any offense or is insulting any other nation;</string>
+    <string name="condition29">5.14.10.   is misleading or known to be false in any way;</string>
+    <string name="condition30">5.14.11.  Any unauthorized use shall automatically terminate the permission or sub-license granted by Fateh.</string>
+
+    <string name="pricing1">6.1.  All the products listed on the Website will be inclusive of all taxes, unless otherwise specified. The prices mentioned at the time of ordering will be the prices charged on the date of the delivery. Although prices of most of the products do not fluctuate on a daily basis but some of the product’s prices do change on a daily basis.</string>
+    <string name="pricing2">6.2.  In case the prices are higher or lower on the date of delivery additional charges will be collected or refunded as the case may be at the time of the delivery of the order.</string>
+
+    <string name="subscribtion1">7.1.  Subscription cannot be transferred to any other location once registration is done.</string>
+    <string name="subscribtion2">7.2.  Fruits cannot be customised in the pack that you choose.</string>
+    <string name="subscribtion3">7.3.  Delivery days will be frozen once the order is placed.</string>
+    <string name="subscribtion4">7.4.  Delivery fee would be charged by Fateh on every order as per the order value.</string>
+    <string name="subscribtion5">7.5.  Delivery date is included in the price.</string>
+    <string name="subscribtion6">7.6.  On taking subscription there will be deliveries as mentioned in the package bought.</string>
+
+    <string name="indemnity1">You agree to defend, indemnify and hold harmless Fateh and its employees, directors, officers, agents and their successors and assigns from and against any and all claims, liabilities, damages, losses, costs and expenses, including attorneys fees, caused by or arising out of claims based upon your actions or inactions, which may result in any loss or liability to Fateh or any third party including but not limited to breach of any undertakings or in relation to the non-fulfilment of any of your obligations detailed in the Terms and Conditions above, or arising out of the your violation of any applicable laws, regulations including but not limited to payment of statutory dues and taxes, claim of libel, defamation, violation of rights of privacy or publicity, loss of service by other subscribers and infringement of intellectual property or other rights.</string>
+
+    <string name="law1">9.1.  The Terms and Conditions shall be construed in accordance with the applicable laws of India. The courts at Navi Mumbai shall have exclusive jurisdiction in any proceedings arising out of these Terms and Conditions.</string>
+    <string name="law2">9.2.  Fateh is registered under the Micro, Small and Medium Enterprises Development Act, 2006. Any dispute must be referred to the Micro and Small Enterprise Facilitation Council.</string>
+
+    <string name="privacyintro1">1.1.  Fateh is committed to respecting your privacy and are committed towards honouring and  protecting the same.</string>
+    <string name="privacyintro2">1.2.  This Fateh Privacy Policy (Policy) describes (a) how Fateh collects, uses, discloses andtransfers Personal Information (defined below) of Users (defined below); (b) rights that an individual has with respect to the Personal Information they provide through this website; the security practices and procedure with respect to the information collected by Fateh.</string>
+    <string name="privacyintro3">1.3. This Policy applies to those who visit this website being www.fatehinternational.net, or whose information Fateh otherwise receives in connection with its services. For the purposes of this Policy, You shall mean the person who is providing their Personal Information (Users).</string>
+    <string name="privacyintro4">1.4.  Users are advised to read and understand this Policy carefully.</string>
+    <string name="privacyintro5">1.5.  This Policy is in consonance with the current data protection laws as applicable in India.</string>
+    <string name="privacyintro6">1.6.  By using the Fateh Fruits platform and the services ("Platform"), you agree and consent to the collection, transfer, use, storage, disclosure and sharing of your information as described and collected by us in accordance with this Policy. If you do not agree with the Policy, please do not use or access the Platform. If you continue to access this Platform, you deem to have given your consent.</string>
+
+    <string name="policy1">2.1.  Users of Fateh websites</string>
+    <string name="policy2">2.2.  Fateh employees and associated third parties, as applicable.</string>
+
+    <string name="info1">3.1.  "Personal Information" as defined in Information Technology (Reasonable security practices and procedures and sensitive personal data or information) Rules, 2011 means "any information that relates to a natural person, which, either directly or indirectly, in combination with other information available or likely to be available with a body corporate, is capable of identifying such person."</string>
+    <string name="info2">3.2.  Fateh collects information about you with the intent to provide you with better services and offerings. Fateh collects the following Personal Information:</string>
+    <string name="info3">3.2.1.  Name,gender, e-mail address, password (for Fateh website account), country, city, contact number, company / organization the User is associated with</string>
+
+    <string name="purpose1">4.1.  To identify the User, to understand his/her/its needs and resolve disputes, if any</string>
+    <string name="purpose2">4.2.  To set up, manage and offer products and to enhance the services to meet the Users requirements</string>
+    <string name="purpose3">4.3.  To provide ongoing service</string>
+    <string name="purpose4">4.4.  To meet legal and regulatory requirements</string>
+    <string name="purpose5">4.5.  To resolve technical issues and troubleshoot problems</string>
+    <string name="purpose6">4.6.  To aid Fateh in collecting monies from Users for transactions carried out on the Platform</string>
+    <string name="purpose7">4.7.  To keep Users apprised of Fateh’s promotions and offers</string>
+    <string name="purpose8">4.8.  To customize User experience</string>
+    <string name="purpose9">4.9.  To detect and protect Fateh from error,fraud and other criminal activities</string>
+    <string name="purpose10">4.10.  To enforce the Terms and Conditions; and</string>
+    <string name="purpose11">4.11.  Other reasons which, prior to being put into effect, shall be communicated to the Users through an update carried out to this Policy.</string>
+
+    <string name="personal1">5.1.  Fateh will not use your Financial Information for any purpose other than to complete a transaction with you. Fateh does not rent, sell or share your Personal Information and will not disclose any of your Personally Information to third parties.</string>
+    <string name="personal2">5.2.  For the use of the Platform and purchase of products, you may be required to pay Fateh with a credit card,
+        wire-transfer, or debit card through Fateh’s third party payment gateway provider and such third party payment gateway provider may be
+        required to collect certain Financial Information from you including, but not restricted to, your credit/debit card number or your bank
+        account details (collectively referred to as "Financial Information"). All Financial Information collected from the Users’ by Fateh’s third
+        party payment gateway providers will be used only for billing and payment processes. The verification of the Financial Information shall be
+        accomplished only by the User through a process of authentication in which Fateh shall have no role to play.</string>
+    <string name="personal3">5.3.  The Financial Information collected from the Users is transacted through secure digital platforms of approved payment
+        gateways which are under encryption, thereby complying with reasonably expected technology standards. While Fateh shall make reasonable endeavours
+        to ensure that the User’s Personal information and the Financial Information is duly protected by undertaking security measures prescribed under
+        applicable laws, the User is strongly advised to exercise discretion while providing personal information or Financial Information while using the
+        Platform given that the internet is susceptible to security breaches.</string>
+    <string name="personal4">5.4.  All information collected from the Users by Fateh is maintained in electronic form on servers and/or cloud systems
+        and shall be accessible by certain employees of Fateh. The User information may also be converted to physical form from time to time. Regardless
+        of the manner of storage, Fateh shall make commercially reasonable endeavours to ensure that the User information is rendered confidential,
+        and will disclose User information only in accordance with the terms of this Policy.</string>
+    <string name="personal5">5.5.  To third parties such as judicial authorities and government agencies mandated under the law for the purpose of
+        verifying of identity, or for the prevention, detection, investigation including cyber incidents, prosecution and punishment of offences or
+        when responding to court orders, or legal process or, to establish or exercise our legal rights, or to defend against legal claims.</string>
+    <string name="personal6">5.6.  In the event of a merger, acquisition, financing or sale of assets or any other situation involving the transfer of
+        some or all of Fateh’s business assets, Fateh may disclose Personal Information to those involved in the negotiation or transfer.</string>
+    <string name="personal7">5.7.  Fateh does not exercise control over the websites displayed as search results. These other sites may place their
+        own cookies or other files on the Users’ computer, collect data or solicit Personal Information or Financial Information from the Users, for
+        which Fateh shall not be held responsible or liable. Fateh does not make any representations concerning the privacy practices or policies of
+        such third parties or terms of use of such websites, nor does Fateh guarantee the accuracy, integrity, or quality of the information, data, text,
+        software, sound, photographs,graphics, videos, messages or other materials available on such websites. The inclusion or exclusion does not imply any
+        endorsement by Fateh of such websites, the websites’ provider, or the information on the website.</string>
+    <string name="personal8">5.8.  The User consents to Fateh reproducing/publishing all testimonials and reviews given by the User (whether on the Website,
+        social media platforms, or in any other manner whatsoever) in relation to Fateh or any of the products, together with the User’s name and location,
+        on the Platform, on such page and in such position as Fateh may determine in its sole discretion. The User agrees that Fateh may edit the testimonials
+        and reviews provided by the User and reproduce/publish such edited or paraphrased versions of the testimonials and reviews on the Platform. If the User
+        has any concerns with the reproduction/publication of any testimonial or review provided by the User on the Platform, the User may contact Fateh at info@fatehinternational.net.</string>
+
+    <string name="duration1">6.1.  The Personal Information provided by you shall not be retained by Fateh for longer than it is required for the purposes for which it was processed in
+        accordance with legal, regulatory,contractual or statutory obligations as applicable.</string>
+    <string name="duration2">6.2.  At the expiry of such period your Personal Information will be deleted or archived in compliance with applicable laws.</string>
+    <string name="duration3">6.3.  The Personal Information of the Users is only collected when it is for a lawful purpose in connection with the function or activity carried out by
+        Fateh and when the collection of such Personal Information is considered to be necessary for Fateh’s purpose.</string>
+
+    <string name="rights1">7.1.  You may have certain rights relating to your Personal Information provided for under applicable laws of India.</string>
+    <string name="rights2">7.2.  These are the rights to: Request access to your Personal Information and request details of the processing activities conducted by Fateh, including, but not limited to</string>
+    <string name="rights3">7.2.1.   request erasure of your Personal Information in certain circumstances</string>
+    <string name="rights4">7.2.2.   request restriction of the processing of your Personal Information in certain circumstances</string>
+    <string name="rights5">7.2.3.   object to the processing of your Personal Information in certain circumstances</string>
+    <string name="rights6">7.2.4.   lodge a complaint with the grievance officer as provided below in Clause 14 of this Policy.</string>
+
+    <string name="consent1">8.1.  By providing information to Fateh, you, hereby specifically grant consent to Fateh to collect and save your Personal Information.
+        You further consent to use your Personal Information for future opportunities.</string>
+    <string name="consent2">8.2.  As per the applicable data protection laws in India, your consent will not be taken in situations where your Personal Information is to be shared in pursuance of adhering to a
+        legal obligation.</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="contactuscontent">If you have any questions about this Privacy Policy, the practices of Platform or your dealings with the Website, You can contact us via the links at the bottom of the page.</string>
+    <string name="msrsilverhouse">MSR Silver House</string>
+    <string name="resetpassword">Reset Password</string>
+    <string name="customer">Retail</string>
+    <string name="wholesaller">Wholesale (Min. 50kg/Box Purchase)</string>
+</resources>

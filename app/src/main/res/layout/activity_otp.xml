@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoeui"
+            android:padding="2dp"
+            android:text="@string/codeissentto"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/mobilenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoeui_bold"
+            android:maxLength="10"
+            android:padding="2dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <EditText
+            android:id="@+id/otpet1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/otpbuttonfilled_background"
+            android:fontFamily="@font/segoeui"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/otpet2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/otpbuttonfilled_background"
+            android:fontFamily="@font/segoeui"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/otpet3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/otpbuttonfilled_background"
+            android:fontFamily="@font/segoeui"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/otpet4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/otpbuttonfilled_background"
+            android:fontFamily="@font/segoeui"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/otpet5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/otpbuttonfilled_background"
+            android:fontFamily="@font/segoeui"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/otpet6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/otpbuttonfilled_background"
+            android:fontFamily="@font/segoeui"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/segoeui"
+            android:textColor="@color/black"
+            android:text="@string/didntreceivecode"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/resendtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoeui_bold"
+            android:text="@string/requestagain"
+            android:textColor="@color/theme_color"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/verifybtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/buttonfilled_background"
+        android:fontFamily="@font/segoeui"
+        android:text="@string/verifyandcreateaccount"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+</LinearLayout>

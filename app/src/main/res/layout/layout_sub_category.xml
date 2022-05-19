@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llSubCategory"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ivSubCategory"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/tvSubCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub Category"
+        android:fontFamily="@font/segoeui_bold"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+</LinearLayout>

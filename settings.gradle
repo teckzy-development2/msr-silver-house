@@ -1,0 +1,2 @@
+rootProject.name = "MSR Silver House"
+include ':app'

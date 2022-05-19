@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/cart_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/ivFruits"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPremium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoeui_bold"
+                android:padding="5dp"
+                android:text=""
+                android:textColor="@color/theme_color"
+                android:textSize="17sp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/tvPremiumTimeline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoeui"
+                android:padding="5dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/tvClickDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoeui"
+                android:linksClickable="true"
+                android:padding="5dp"
+                android:text="@string/clickheretoseedetail"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivFruits"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp" />
+    </RelativeLayout>
+</LinearLayout>

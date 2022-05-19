@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cart_bg"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/tvGetFreshFruits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/segoeui"
+        android:padding="2dp"
+        android:text="@string/getfreshfruits"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvEveryWeekAtYourDoorstep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/segoeui"
+        android:padding="2dp"
+        android:text="@string/everyweekatyourdoorstep"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="@color/red" />
+
+    <TextView
+        android:id="@+id/tvPremium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/segoeui_bold"
+        android:padding="2dp"
+        android:text=""
+        android:textColor="@color/theme_color"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="@color/theme_color" />
+
+    <TextView
+        android:id="@+id/tvPremiumData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/segoeui"
+        android:layout_gravity="center"
+        android:padding="2dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:nestedScrollingEnabled="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttonoutline_background"
+            android:fontFamily="@font/segoeui_bold"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/theme_color"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnSubscribe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonoutline_background"
+            android:fontFamily="@font/segoeui_bold"
+            android:text="@string/subscribenow"
+            android:textAllCaps="false"
+            android:textColor="@color/theme_color"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>
